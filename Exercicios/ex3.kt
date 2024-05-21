@@ -21,7 +21,7 @@ val Eventos = mutableListOf<Event>(event1,event2,event3,event4,event5,event6)
     
     for (evento in Eventos) {
     println("Title: "+evento.title)
-	println("Description: "+evento.description)
+    println("Description: "+evento.description)
     println("Daypart: "+evento.daypart)
     println("Duration: "+evento.duration)
     println("")

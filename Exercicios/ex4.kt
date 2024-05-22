@@ -24,4 +24,3 @@ val eventosCurtos = Eventos.filter { it.duration < 60 }
 println("Você tem ${eventosCurtos.size} eventos curtos.")
 }
  
-}
